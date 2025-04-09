@@ -1,5 +1,12 @@
 package main
 
+import "fmt"
+
+// https://leetcode.com/problems/valid-parentheses/description/
+
+// Complexidade Temporal: O(n)
+// Complexidade Espacial: O(n)
+
 func isValid(s string) bool {
 	stack := []rune{}
 	for _, ch := range s {
@@ -24,4 +31,11 @@ func isValid(s string) bool {
 		}
 	}
 	return len(stack) == 0
+}
+
+func main() {
+	fmt.Println(isValid("()"))     // true
+	fmt.Println(isValid("()[]{}")) // true
+	fmt.Println(isValid("(]"))     // false
+	fmt.Println(isValid("([])"))   // true
 }

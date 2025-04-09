@@ -4,8 +4,9 @@ import "fmt"
 
 // https://leetcode.com/problems/create-maximum-number/
 
-// Complexidade Temporal:
-// Complexidade Espacial:
+// Complexidade Temporal: O(k² * n + k³)
+
+// Complexidade Espacial: O(k * n + k²)
 
 func maxNumber(nums1 []int, nums2 []int, k int) []int {
 	mat1 := make([][]int, k+1)

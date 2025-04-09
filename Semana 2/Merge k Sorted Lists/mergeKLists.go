@@ -4,8 +4,8 @@ import "fmt"
 
 // https://leetcode.com/problems/merge-k-sorted-lists/
 
-// Complexidade Temporal:
-// Complexidade Espacial:
+// Complexidade Temporal: O(n²)
+// Complexidade Espacial: O(n)
 
 func mergeKLists(lists []*ListNode) *ListNode {
 	var finalList *ListNode = nil
