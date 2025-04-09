@@ -94,5 +94,4 @@ func main() {
 	fmt.Println(maxNumber([]int{6, 7}, []int{6, 0, 4}, 5))                // Esperado: [6 7 6 0 4]
 	fmt.Println(maxNumber([]int{3, 9}, []int{8, 9}, 3))                   // Esperado: [9 8 9]
 	fmt.Println(maxNumber([]int{8, 1, 8, 8, 6}, []int{4}, 2))             // Esperado: [8, 8]
-
 }
