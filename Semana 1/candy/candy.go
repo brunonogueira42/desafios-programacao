@@ -1,8 +1,11 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
+
+// https://leetcode.com/problems/candy/description/
+
+// Complexidade Temporal: O(n)
+// Complexidade Espacial: O(n)
 
 func candy(ratings []int) int {
 	n := len(ratings)

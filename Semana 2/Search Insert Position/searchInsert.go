@@ -2,7 +2,8 @@ package main
 
 import "fmt"
 
-// Bruno Nogueira, Leonardo Dorneles, Iago Leão
+// https://leetcode.com/problems/search-insert-position/
+
 // Complexidade Temporal: O(n)
 // Complexidade Espacial: O(1)
 
