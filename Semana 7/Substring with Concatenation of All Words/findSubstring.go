@@ -1,11 +1,11 @@
 package main
 
-// https://leetcode.com/problems/longest-substring-without-repeating-characters/
+// https://leetcode.com/problems/substring-with-concatenation-of-all-words/description/
 
 // Complexidade Temporal:
 // Complexidade Espacial:
 
-func lengthOfLongestSubstring(s string) int {
+func findSubstring(s string, words []string) []int {
 
 }
 
