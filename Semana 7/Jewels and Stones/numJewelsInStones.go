@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 // https://leetcode.com/problems/jewels-and-stones/
 
 // Complexidade Temporal:
@@ -10,5 +12,5 @@ func numJewelsInStones(jewels string, stones string) int {
 }
 
 func main() {
-
+	fmt.Println()
 }
